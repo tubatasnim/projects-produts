@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div >
             <div className='Home-container'>
-                <div>
+                <div className='paragraph-container'>
                     <h1 className='head-line'>Our Products</h1>
                     <h1>Fujifilm Instant Camera with Selfie Mode</h1>
                     <p><strong>Master Foto...</strong>

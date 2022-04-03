@@ -12,6 +12,10 @@
 
 }
 
+.paragraph-container {
+    padding-left: 30px;
+}
+
 .btn-home {
     border: 2px solid rgb(189, 79, 232);
     border-radius: 10px;
@@ -58,5 +62,5 @@
 .Home-container img {
     margin-top: 80px;
     height: 600px;
-    width: 500px;
+    width: 700px;
 }
