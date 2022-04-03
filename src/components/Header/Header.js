@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>
             <nav className='navbar-style'>
-                <CustomLink to="/">Home</CustomLink>
+                <CustomLink to="/">HOME</CustomLink>
 
                 <CustomLink to="/Reviews">REVIEWS</CustomLink>
                 <CustomLink to="/DashBoard">DASHBOARD</CustomLink>

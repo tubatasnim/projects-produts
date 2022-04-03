@@ -28,6 +28,32 @@
     border: 2px solid rgb(246, 206, 234);
 }
 
+.customer-heading {
+    text-align: center;
+    color: rgb(160, 41, 207);
+    font-weight: bold;
+    font-size: 45px;
+
+}
+
+.btn-home-bottom {
+    border: 2px solid rgb(189, 79, 232);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgb(189, 79, 232);
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 550px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-home-bottom:hover {
+    background-color: rgb(246, 206, 234);
+    border: 2px solid rgb(246, 206, 234);
+}
 
 .Home-container img {
     margin-top: 80px;

@@ -16,6 +16,10 @@ const Home = () => {
                     <img src="./images/Camera.jpg" alt="" />
                 </div>
             </div>
+            <div>
+                <h1 className='customer-heading'>Customer Reviews</h1>
+            </div>
+            <button className='btn-home-bottom'>See All Reviews</button>
         </div>
     );
 };
