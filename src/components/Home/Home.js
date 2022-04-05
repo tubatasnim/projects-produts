@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import useReviews from '../../hooks/useReviews';
 import CustomLink from '../CustomLink/CustomLink';
 import Review from '../Review/Review';
-import Reviews from '../Reviews/Reviews';
 import './Home.css';
 
 const Home = () => {

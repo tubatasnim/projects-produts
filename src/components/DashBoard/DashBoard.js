@@ -1,17 +1,9 @@
 
-import React, { useEffect, useState } from 'react';
 import { Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 import './DashBoard.css';
 
 const DashBoard = () => {
-    // const [products, setProducts] = useState([]);
 
-    // useEffect(() => {
-    //     fetch('/data.json')
-    //         .then(res => res.json())
-    //         .then(data => setProducts(data));
-    // }, [])
-    // const { month, investment, revenue, sell } = products
     const data = [
         {
             "month": "Mar",
@@ -55,7 +47,8 @@ const DashBoard = () => {
             <h1 className='dashboard-heading'>Our Products DashBoard</h1>
             <div className='chart-container'>
                 <div>
-                    <h2>Monthely Revene</h2>
+
+                    <h2>Monthly  Revenue </h2>
                     <LineChart width={400} height={400} data={data} >
                         <Line dataKey={'revenue'}></Line>
                         <YAxis dataKey={'investment'}></YAxis>
@@ -65,7 +58,7 @@ const DashBoard = () => {
                 </div>
 
                 <div>
-                    <h2 className='monthe-sell'>Monthely Sell</h2>
+                    <h2 className='monthe-sell'>Monthly Sell</h2>
                     <PieChart width={800} height={450}>
                         <Pie data={data} dataKey={'sell'} nameKey={'month'} cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
                         <Pie data={data} dataKey={'sell'} nameKey={'month'} cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
