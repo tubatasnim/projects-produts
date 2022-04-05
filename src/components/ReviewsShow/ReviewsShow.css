@@ -1,4 +1,5 @@
 .review-show {
+
     height: 400px;
     width: 250px;
     border: 2px solid gray;
@@ -14,4 +15,10 @@
     width: 200px;
     border: 2px solid rgb(179, 174, 174);
     border-radius: 100px;
+}
+
+.show-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }

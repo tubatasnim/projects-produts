@@ -1,11 +1,13 @@
 import React from 'react';
 import useShowReviews from '../../hookReview/useShowReviews';
 import ReviewsShow from '../ReviewsShow/ReviewsShow';
+import './Reviews.css';
 
 const Reviews = () => {
     const [shows, setShows] = useShowReviews();
     return (
-        <div>
+        <div className='reviews-show'>
+
             {
                 shows.map(show => <ReviewsShow
                     key={show.id}

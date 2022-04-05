@@ -1,10 +1,14 @@
-.cart-camera-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.reviews-heading {
+    margin-left: 500px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(189, 79, 232);
+    margin-top: 40px;
 
 }
 
-.reviews-heading {
-    text-align: center;
+.reviews-show {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 150px;
 }
