@@ -1,8 +1,12 @@
-# Product Analysis Website
+# Projects-Assignment
 
 ## [Live site  link](https://projects-products.netlify.app)
 [https://projects-products.netlify.app](https://projects-products.netlify.app)
 
+-line 1:first i add home page for my product and sort reviews.
+-line 2:second i add all review in my site for products.
+-line 3:third i add monthly sell and revenue from rechart.
+-line 4:forth i add blogs for answer to the question.
 
 
 --------------
