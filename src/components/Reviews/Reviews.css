@@ -1,0 +1,10 @@
+.cart-camera-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.reviews-heading {
+    text-align: center;
+}

@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+import useReviews from '../../hooks/useReviews';
+import CustomLink from '../CustomLink/CustomLink';
+import Review from '../Review/Review';
+import Reviews from '../Reviews/Reviews';
 import './Home.css';
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
+    // const [button, setButton] = useState([]);
+    // const handleAddToReview = (review) => {
+    //     console.log(review);
+    // }
     return (
         <div >
             <div className='Home-container'>
@@ -18,8 +27,26 @@ const Home = () => {
             </div>
             <div>
                 <h1 className='customer-heading'>Customer Reviews</h1>
+                <div className='Reviews-container'>
+                    {
+                        reviews.map(review => <Review
+                            key={review.id}
+                            review={review}
+                        ></Review>)
+                    }
+                </div>
             </div>
-            <button className='btn-home-bottom'>See All Reviews</button>
+            {/* <Link to='/'></Link>
+            {
+                reviews.map(item => <Reviews
+                    key={item.name}
+                    item={item}
+                ></Reviews>)
+
+            } */}
+            <CustomLink to="/Reviews"><button className='btn-home-bottom'>See All Reviews</button></CustomLink>
+
+
         </div>
     );
 };
