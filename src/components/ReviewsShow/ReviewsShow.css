@@ -1,4 +1,4 @@
-.review {
+.review-show {
     height: 400px;
     width: 250px;
     border: 2px solid gray;
@@ -9,10 +9,9 @@
     margin-bottom: 40px;
 }
 
-.review img {
+.review-show img {
     height: 200px;
     width: 200px;
     border: 2px solid rgb(179, 174, 174);
     border-radius: 100px;
-
 }

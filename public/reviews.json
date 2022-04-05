@@ -2,37 +2,43 @@
     {
         "id": 1,
         "name": "Jill Mcintyre",
-        "comment": "wow so fuji fuji",
-        "img": "https://freedesignfile.com/upload/2017/01/Handsome-man-HD-picture-07.jpg"
+        "comment": "Only Here the Best Results Start i Search and Find.its very very helpfull for me.",
+        "img": "https://freedesignfile.com/upload/2017/01/Handsome-man-HD-picture-07.jpg",
+        "Rating": 4.3
     },
     {
         "id": 2,
         "name": "Holloway Olson",
-        "comment": " i want this",
-        "img": "https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwzMzEwOTAzfHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+        "comment": " A Platform for Sourcing good Products and One-stop Sourcing Service.I want this",
+        "img": "https://images.unsplash.com/photo-1450133064473-71024230f91b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwzMzEwOTAzfHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
+        "Rating": 4.9
     },
     {
         "id": 3,
         "name": "Bernadine Burgess",
-        "comment": "wohhhhh",
-        "img": "https://media.istockphoto.com/photos/studio-shot-of-young-multiethnic-handsome-man-against-black-picture-id860512072?k=20&m=860512072&s=612x612&w=0&h=ZFIrtVbMeEveU3pGDqLzhq1UcxWv4KAwqoqANzHdUuM="
+        "comment": "Only Here the Best Results Start i Search and Find.its very very helpfull for me.",
+        "img": "https://media.istockphoto.com/photos/studio-shot-of-young-multiethnic-handsome-man-against-black-picture-id860512072?k=20&m=860512072&s=612x612&w=0&h=ZFIrtVbMeEveU3pGDqLzhq1UcxWv4KAwqoqANzHdUuM=",
+        "Rating": 4.7
     },
     {
         "id": 4,
         "name": "Wolfe Knowles",
-        "comment": "so amaging",
-        "img": "https://media.istockphoto.com/photos/portrait-of-handsome-man-against-black-background-picture-id929063744?b=1&k=20&m=929063744&s=170667a&w=0&h=q_l997anXwtDrwPjzIfF4dxFJd8LLN3zgl3JI4tRpT4="
+        "comment": "A Platform for Sourcing good Products and One-stop Sourcing Service",
+        "img": "https://media.istockphoto.com/photos/portrait-of-handsome-man-against-black-background-picture-id929063744?b=1&k=20&m=929063744&s=170667a&w=0&h=q_l997anXwtDrwPjzIfF4dxFJd8LLN3zgl3JI4tRpT4=",
+        "Rating": 4.3
     },
     {
         "id": 5,
         "name": "Tanner Vance",
-        "comment": "i want to buy this",
-        "img": "https://wallpaperaccess.com/full/2154315.jpg"
+        "comment": "Only Here the Best Results Start i Search and Find.its very very helpfull for me.",
+        "img": "https://wallpaperaccess.com/full/2154315.jpg",
+        "Rating": 4.5
     },
     {
         "id": 6,
         "name": "Molly Park",
-        "comment": "give it to me",
-        "img": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+        "comment": "A Platform for Sourcing good Products and One-stop Sourcing Service",
+        "img": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFufGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "Rating": 4.9
     }
 ]

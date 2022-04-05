@@ -1,7 +1,7 @@
 # Product Analysis Website
 
-## [Private repo link](https://classroom.github.com/a/8blYLhL7)
-[https://classroom.github.com/a/8blYLhL7](https://classroom.github.com/a/8blYLhL7)
+## [Live site  link](https://projects-products.netlify.app)
+[https://projects-products.netlify.app](https://projects-products.netlify.app)
 
 
 

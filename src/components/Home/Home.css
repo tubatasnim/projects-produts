@@ -66,11 +66,8 @@
 }
 
 .Reviews-container {
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px; */
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }

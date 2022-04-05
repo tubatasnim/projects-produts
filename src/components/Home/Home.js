@@ -7,10 +7,8 @@ import './Home.css';
 
 const Home = () => {
     const [reviews, setReviews] = useReviews();
-    // const [button, setButton] = useState([]);
-    // const handleAddToReview = (review) => {
-    //     console.log(review);
-    // }
+    const newReview = reviews.slice(0, 3);
+
     return (
         <div >
             <div className='Home-container'>
@@ -29,21 +27,15 @@ const Home = () => {
                 <h1 className='customer-heading'>Customer Reviews</h1>
                 <div className='Reviews-container'>
                     {
-                        reviews.map(review => <Review
+                        newReview.map(review => <Review
                             key={review.id}
                             review={review}
                         ></Review>)
                     }
                 </div>
             </div>
-            {/* <Link to='/'></Link>
-            {
-                reviews.map(item => <Reviews
-                    key={item.name}
-                    item={item}
-                ></Reviews>)
-            } */}
-            <Reviews></Reviews>
+
+
             <CustomLink to="/Reviews"><button className='btn-home-bottom'>See All Reviews</button></CustomLink>
 
 
