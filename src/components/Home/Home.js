@@ -42,8 +42,8 @@ const Home = () => {
                     key={item.name}
                     item={item}
                 ></Reviews>)
-
             } */}
+            <Reviews></Reviews>
             <CustomLink to="/Reviews"><button className='btn-home-bottom'>See All Reviews</button></CustomLink>
 
 
